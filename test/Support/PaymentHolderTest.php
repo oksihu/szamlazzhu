@@ -1,15 +1,15 @@
 <?php
 
 
-namespace zoparga\SzamlazzHu\Tests\Support;
+namespace oksihu\SzamlazzHu\Tests\Support;
 
 
 use Illuminate\Support\Collection;
 use Orchestra\Testbench\TestCase;
-use zoparga\SzamlazzHu\Internal\Support\PaymentMethods;
-use zoparga\SzamlazzHu\Tests\Fixtures\Payment;
-use zoparga\SzamlazzHu\Tests\Fixtures\PaymentCollection;
-use zoparga\SzamlazzHu\Tests\Fixtures\PaymentHolder;
+use oksihu\SzamlazzHu\Internal\Support\PaymentMethods;
+use oksihu\SzamlazzHu\Tests\Fixtures\Payment;
+use oksihu\SzamlazzHu\Tests\Fixtures\PaymentCollection;
+use oksihu\SzamlazzHu\Tests\Fixtures\PaymentHolder;
 
 class PaymentHolderTest extends TestCase {
 

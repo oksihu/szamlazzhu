@@ -1,7 +1,7 @@
 <?php
 
 
-namespace zoparga\SzamlazzHu\Internal\Support;
+namespace oksihu\SzamlazzHu\Internal\Support;
 
 
 use Illuminate\Support\Collection;

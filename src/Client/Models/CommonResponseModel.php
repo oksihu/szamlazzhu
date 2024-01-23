@@ -1,17 +1,17 @@
 <?php
 
 
-namespace zoparga\SzamlazzHu\Client\Models;
+namespace oksihu\SzamlazzHu\Client\Models;
 
 use Psr\Http\Message\ResponseInterface;
 use RuntimeException;
-use zoparga\SzamlazzHu\Client\Client;
-use zoparga\SzamlazzHu\Util\XmlParser;
+use oksihu\SzamlazzHu\Client\Client;
+use oksihu\SzamlazzHu\Util\XmlParser;
 
 
 /**
  * Class CommonResponseModel
- * @package zoparga\SzamlazzHu\Client\Models
+ * @package oksihu\SzamlazzHu\Client\Models
  */
 abstract class CommonResponseModel
 {

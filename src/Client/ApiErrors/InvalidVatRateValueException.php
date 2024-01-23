@@ -1,12 +1,12 @@
 <?php
 
 
-namespace zoparga\SzamlazzHu\Client\ApiErrors;
+namespace oksihu\SzamlazzHu\Client\ApiErrors;
 
 
 /**
  * Class InvalidVatRateValueException
- * @package zoparga\SzamlazzHu\Client\ApiErrors
+ * @package oksihu\SzamlazzHu\Client\ApiErrors
  */
 class InvalidVatRateValueException extends ClientException
 {

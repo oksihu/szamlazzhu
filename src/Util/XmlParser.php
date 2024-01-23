@@ -1,7 +1,7 @@
 <?php
 
 
-namespace zoparga\SzamlazzHu\Util;
+namespace oksihu\SzamlazzHu\Util;
 
 
 use RuntimeException;

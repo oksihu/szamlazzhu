@@ -1,7 +1,7 @@
 <?php
 
 
-namespace zoparga\SzamlazzHu\Tests\Client\Fixtures;
+namespace oksihu\SzamlazzHu\Tests\Client\Fixtures;
 
 
 class ReceiptRetrievalResponse extends ReceiptCreationResponse {

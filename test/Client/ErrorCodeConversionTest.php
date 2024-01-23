@@ -1,25 +1,25 @@
 <?php
 
 
-namespace zoparga\SzamlazzHu\Tests\Client;
+namespace oksihu\SzamlazzHu\Tests\Client;
 
 
 use GuzzleHttp\Psr7\Response;
-use zoparga\SzamlazzHu\Client\ApiErrors\AuthenticationException;
-use zoparga\SzamlazzHu\Client\ApiErrors\CannotCreateInvoiceException;
-use zoparga\SzamlazzHu\Client\ApiErrors\CommonResponseException;
-use zoparga\SzamlazzHu\Client\ApiErrors\InvalidGrossPriceValueException;
-use zoparga\SzamlazzHu\Client\ApiErrors\InvalidInvoicePrefixException;
-use zoparga\SzamlazzHu\Client\ApiErrors\InvalidNetPriceValueException;
-use zoparga\SzamlazzHu\Client\ApiErrors\InvalidVatRateValueException;
-use zoparga\SzamlazzHu\Client\ApiErrors\InvoiceNotificationSendingException;
-use zoparga\SzamlazzHu\Client\ApiErrors\KeystoreOpeningException;
-use zoparga\SzamlazzHu\Client\ApiErrors\NoXmlFileException;
-use zoparga\SzamlazzHu\Client\ApiErrors\RemoteMaintenanceException;
-use zoparga\SzamlazzHu\Client\ApiErrors\UnsuccessfulInvoiceSignatureException;
-use zoparga\SzamlazzHu\Client\ApiErrors\XmlReadingException;
-use zoparga\SzamlazzHu\Internal\Support\PaymentMethods;
-use zoparga\SzamlazzHu\Receipt;
+use oksihu\SzamlazzHu\Client\ApiErrors\AuthenticationException;
+use oksihu\SzamlazzHu\Client\ApiErrors\CannotCreateInvoiceException;
+use oksihu\SzamlazzHu\Client\ApiErrors\CommonResponseException;
+use oksihu\SzamlazzHu\Client\ApiErrors\InvalidGrossPriceValueException;
+use oksihu\SzamlazzHu\Client\ApiErrors\InvalidInvoicePrefixException;
+use oksihu\SzamlazzHu\Client\ApiErrors\InvalidNetPriceValueException;
+use oksihu\SzamlazzHu\Client\ApiErrors\InvalidVatRateValueException;
+use oksihu\SzamlazzHu\Client\ApiErrors\InvoiceNotificationSendingException;
+use oksihu\SzamlazzHu\Client\ApiErrors\KeystoreOpeningException;
+use oksihu\SzamlazzHu\Client\ApiErrors\NoXmlFileException;
+use oksihu\SzamlazzHu\Client\ApiErrors\RemoteMaintenanceException;
+use oksihu\SzamlazzHu\Client\ApiErrors\UnsuccessfulInvoiceSignatureException;
+use oksihu\SzamlazzHu\Client\ApiErrors\XmlReadingException;
+use oksihu\SzamlazzHu\Internal\Support\PaymentMethods;
+use oksihu\SzamlazzHu\Receipt;
 
 class ErrorCodeConversionTest extends TestCase {
 
@@ -27,7 +27,7 @@ class ErrorCodeConversionTest extends TestCase {
      * @param int $orderNumber
      * @param null $items
      * @param null $payments
-     * @return \zoparga\SzamlazzHu\Receipt
+     * @return \oksihu\SzamlazzHu\Receipt
      */
     protected function getReceipt($orderNumber = 1, $items = null, $payments = null)
     {
@@ -73,7 +73,7 @@ class ErrorCodeConversionTest extends TestCase {
 
     /**
      * @param $code
-     * @throws \zoparga\SzamlazzHu\Client\Errors\ModelValidationException
+     * @throws \oksihu\SzamlazzHu\Client\Errors\ModelValidationException
      */
     protected function invokeReceiptGetter($code)
     {

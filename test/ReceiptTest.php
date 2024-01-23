@@ -1,12 +1,12 @@
 <?php
 
 
-namespace zoparga\SzamlazzHu\Tests;
+namespace oksihu\SzamlazzHu\Tests;
 
 
-use zoparga\SzamlazzHu\Internal\Support\ItemHolder;
-use zoparga\SzamlazzHu\Internal\Support\PaymentHolder;
-use zoparga\SzamlazzHu\Receipt;
+use oksihu\SzamlazzHu\Internal\Support\ItemHolder;
+use oksihu\SzamlazzHu\Internal\Support\PaymentHolder;
+use oksihu\SzamlazzHu\Receipt;
 
 class ReceiptTest extends \Orchestra\Testbench\TestCase {
 

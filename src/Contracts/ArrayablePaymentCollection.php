@@ -1,7 +1,7 @@
 <?php
 
 
-namespace zoparga\SzamlazzHu\Contracts;
+namespace oksihu\SzamlazzHu\Contracts;
 
 
 interface ArrayablePaymentCollection

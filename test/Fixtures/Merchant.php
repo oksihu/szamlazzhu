@@ -1,10 +1,10 @@
 <?php
 
 
-namespace zoparga\SzamlazzHu\Tests\Fixtures;
+namespace oksihu\SzamlazzHu\Tests\Fixtures;
 
 
-use zoparga\SzamlazzHu\Contracts\ArrayableMerchant;
+use oksihu\SzamlazzHu\Contracts\ArrayableMerchant;
 
 class Merchant implements ArrayableMerchant {
     protected $bank;

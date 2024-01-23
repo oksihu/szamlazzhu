@@ -1,7 +1,7 @@
 <?php
 
 
-namespace zoparga\SzamlazzHu\Client\Errors;
+namespace oksihu\SzamlazzHu\Client\Errors;
 
 
 use Exception;
@@ -10,7 +10,7 @@ use Throwable;
 
 /**
  * Class InvalidClientConfigurationException
- * @package zoparga\SzamlazzHu\Client\Errors
+ * @package oksihu\SzamlazzHu\Client\Errors
  *
  * Should be triggered when the client configuration is invalid
  */

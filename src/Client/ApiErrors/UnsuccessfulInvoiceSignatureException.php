@@ -1,12 +1,12 @@
 <?php
 
 
-namespace zoparga\SzamlazzHu\Client\ApiErrors;
+namespace oksihu\SzamlazzHu\Client\ApiErrors;
 
 
 /**
  * Class UnsuccessfulInvoiceSignatureException
- * @package zoparga\SzamlazzHu\Client\ApiErrors
+ * @package oksihu\SzamlazzHu\Client\ApiErrors
  *
  * The invoice signing was not successful
  */

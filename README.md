@@ -1,7 +1,7 @@
-[![Build Status](https://travis-ci.com/zoparga/laravel-szamlazzhu.svg?branch=master)](https://travis-ci.com/zoparga/laravel-szamlazzhu)
-[![Latest Stable Version](https://poser.pugx.org/zoparga/laravel-szamlazzhu/version)](https://packagist.org/packages/zoparga/laravel-szamlazzhu)
-[![Latest Stable Version](https://poser.pugx.org/zoparga/laravel-szamlazzhu/downloads)](https://packagist.org/packages/zoparga/laravel-szamlazzhu)
-[![License](https://poser.pugx.org/zoparga/laravel-szamlazzhu/license)](https://packagist.org/packages/zoparga/laravel-szamlazzhu)
+[![Build Status](https://travis-ci.com/oksihu/laravel-szamlazzhu.svg?branch=master)](https://travis-ci.com/oksihu/laravel-szamlazzhu)
+[![Latest Stable Version](https://poser.pugx.org/oksihu/laravel-szamlazzhu/version)](https://packagist.org/packages/oksihu/laravel-szamlazzhu)
+[![Latest Stable Version](https://poser.pugx.org/oksihu/laravel-szamlazzhu/downloads)](https://packagist.org/packages/oksihu/laravel-szamlazzhu)
+[![License](https://poser.pugx.org/oksihu/laravel-szamlazzhu/license)](https://packagist.org/packages/oksihu/laravel-szamlazzhu)
 
 # laravel-szamlazzhu
 Implementation for Laravel which was made to support Szamlazz.hu Agent version of **3.4** and higher.
@@ -18,7 +18,7 @@ which is require GuzzleHttp 7 & the maintainers don't want to add it yet.
 
 ## Installation
 ```bash
-composer require zoparga/laravel-szamlazzhu
+composer require oksihu/laravel-szamlazzhu
 ```
 
 ## Introduction

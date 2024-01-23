@@ -1,14 +1,14 @@
 <?php
 
 
-namespace zoparga\SzamlazzHu\Tests\Fixtures;
+namespace oksihu\SzamlazzHu\Tests\Fixtures;
 
 
 use Illuminate\Support\Collection;
 
 class PaymentHolder {
 
-    use \zoparga\SzamlazzHu\Internal\Support\PaymentHolder;
+    use \oksihu\SzamlazzHu\Internal\Support\PaymentHolder;
 
     public function __construct()
     {

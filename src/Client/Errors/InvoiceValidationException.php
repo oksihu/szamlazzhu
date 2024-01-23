@@ -1,13 +1,13 @@
 <?php
 
 
-namespace zoparga\SzamlazzHu\Client\Errors;
+namespace oksihu\SzamlazzHu\Client\Errors;
 
 
 use Illuminate\Contracts\Validation\Validator;
-use zoparga\SzamlazzHu\Internal\AbstractInvoice;
-use zoparga\SzamlazzHu\Internal\AbstractModel;
-use zoparga\SzamlazzHu\Invoice;
+use oksihu\SzamlazzHu\Internal\AbstractInvoice;
+use oksihu\SzamlazzHu\Internal\AbstractModel;
+use oksihu\SzamlazzHu\Invoice;
 use Throwable;
 
 class InvoiceValidationException extends ModelValidationException

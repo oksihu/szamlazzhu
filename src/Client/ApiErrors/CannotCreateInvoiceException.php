@@ -1,12 +1,12 @@
 <?php
 
 
-namespace zoparga\SzamlazzHu\Client\ApiErrors;
+namespace oksihu\SzamlazzHu\Client\ApiErrors;
 
 
 /**
  * Class CannotCreateInvoiceException
- * @package zoparga\SzamlazzHu\Client\ApiErrors
+ * @package oksihu\SzamlazzHu\Client\ApiErrors
  *
  * Invoice could not be created because of authorization problems
  */

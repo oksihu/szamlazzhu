@@ -1,20 +1,20 @@
 <?php
 
 
-namespace zoparga\SzamlazzHu;
+namespace oksihu\SzamlazzHu;
 
-use zoparga\SzamlazzHu\Client\ApiErrors\CommonResponseException;
-use zoparga\SzamlazzHu\Client\Errors\InvoiceValidationException;
-use zoparga\SzamlazzHu\Client\Errors\ModelValidationException;
-use zoparga\SzamlazzHu\Client\Errors\UnknownOrderIdException;
-use zoparga\SzamlazzHu\Client\Models\InvoiceCreationResponse;
-use zoparga\SzamlazzHu\Client\Models\ProformaInvoiceDeletionResponse;
-use zoparga\SzamlazzHu\Internal\AbstractInvoice;
-use zoparga\SzamlazzHu\Internal\Support\ClientAccessor;
+use oksihu\SzamlazzHu\Client\ApiErrors\CommonResponseException;
+use oksihu\SzamlazzHu\Client\Errors\InvoiceValidationException;
+use oksihu\SzamlazzHu\Client\Errors\ModelValidationException;
+use oksihu\SzamlazzHu\Client\Errors\UnknownOrderIdException;
+use oksihu\SzamlazzHu\Client\Models\InvoiceCreationResponse;
+use oksihu\SzamlazzHu\Client\Models\ProformaInvoiceDeletionResponse;
+use oksihu\SzamlazzHu\Internal\AbstractInvoice;
+use oksihu\SzamlazzHu\Internal\Support\ClientAccessor;
 
 /**
  * Class ProFormaInvoice
- * @package zoparga\SzamlazzHu
+ * @package oksihu\SzamlazzHu
  *
  * Pro-forma invoice is a kind of special invoice which is used to
  * send an `invoice` that is a prepayment request to the customer.

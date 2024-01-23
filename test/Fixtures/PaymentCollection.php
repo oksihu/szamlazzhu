@@ -1,11 +1,11 @@
 <?php
 
 
-namespace zoparga\SzamlazzHu\Tests\Fixtures;
+namespace oksihu\SzamlazzHu\Tests\Fixtures;
 
 
-use zoparga\SzamlazzHu\Contracts\ArrayablePayment;
-use zoparga\SzamlazzHu\Contracts\ArrayablePaymentCollection;
+use oksihu\SzamlazzHu\Contracts\ArrayablePayment;
+use oksihu\SzamlazzHu\Contracts\ArrayablePaymentCollection;
 
 class PaymentCollection implements ArrayablePaymentCollection {
 

@@ -1,11 +1,11 @@
 <?php
 
 
-namespace zoparga\SzamlazzHu\Contracts;
+namespace oksihu\SzamlazzHu\Contracts;
 
 /**
  * Interface ArrayableInvoiceItemCollection
- * @package zoparga\SzamlazzHu\Contracts
+ * @package oksihu\SzamlazzHu\Contracts
  */
 interface ArrayableItemCollection
 {

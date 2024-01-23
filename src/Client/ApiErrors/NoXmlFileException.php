@@ -1,12 +1,12 @@
 <?php
 
 
-namespace zoparga\SzamlazzHu\Client\ApiErrors;
+namespace oksihu\SzamlazzHu\Client\ApiErrors;
 
 
 /**
  * Class NoXmlFileException
- * @package zoparga\SzamlazzHu\Client\ApiErrors
+ * @package oksihu\SzamlazzHu\Client\ApiErrors
  *
  * No XML file was provided in request body
  */

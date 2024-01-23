@@ -1,10 +1,10 @@
 <?php
 
 
-namespace zoparga\SzamlazzHu\Tests;
+namespace oksihu\SzamlazzHu\Tests;
 
 
-use zoparga\SzamlazzHu\Providers\SzamlazzHuServiceProvider;
+use oksihu\SzamlazzHu\Providers\SzamlazzHuServiceProvider;
 
 abstract class TestCase extends \Orchestra\Testbench\TestCase
 {

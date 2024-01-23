@@ -1,11 +1,11 @@
 <?php
 
 
-namespace zoparga\SzamlazzHu\Client\Errors;
+namespace oksihu\SzamlazzHu\Client\Errors;
 
 
 use Exception;
-use zoparga\SzamlazzHu\Receipt;
+use oksihu\SzamlazzHu\Receipt;
 
 class ReceiptAlreadyCancelledException extends Exception {
 

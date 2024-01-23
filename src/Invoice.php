@@ -1,18 +1,18 @@
 <?php
 
 
-namespace zoparga\SzamlazzHu;
+namespace oksihu\SzamlazzHu;
 
-use zoparga\SzamlazzHu\Client\Errors\InvoiceValidationException;
-use zoparga\SzamlazzHu\Client\Errors\ModelValidationException;
-use zoparga\SzamlazzHu\Client\Models\InvoiceCancellationResponse;
-use zoparga\SzamlazzHu\Client\Models\InvoiceCreationResponse;
-use zoparga\SzamlazzHu\Internal\AbstractInvoice;
-use zoparga\SzamlazzHu\Internal\Support\ClientAccessor;
+use oksihu\SzamlazzHu\Client\Errors\InvoiceValidationException;
+use oksihu\SzamlazzHu\Client\Errors\ModelValidationException;
+use oksihu\SzamlazzHu\Client\Models\InvoiceCancellationResponse;
+use oksihu\SzamlazzHu\Client\Models\InvoiceCreationResponse;
+use oksihu\SzamlazzHu\Internal\AbstractInvoice;
+use oksihu\SzamlazzHu\Internal\Support\ClientAccessor;
 
 /**
  * Class Invoice
- * @package zoparga\SzamlazzHu
+ * @package oksihu\SzamlazzHu
  */
 class Invoice extends AbstractInvoice {
 

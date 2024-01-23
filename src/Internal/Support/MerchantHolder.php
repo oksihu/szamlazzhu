@@ -1,15 +1,15 @@
 <?php
 
 
-namespace zoparga\SzamlazzHu\Internal\Support;
+namespace oksihu\SzamlazzHu\Internal\Support;
 
 use Illuminate\Support\Str;
 use InvalidArgumentException;
-use zoparga\SzamlazzHu\Contracts\ArrayableMerchant;
+use oksihu\SzamlazzHu\Contracts\ArrayableMerchant;
 
 /**
  * Trait SimplifiesMerchant
- * @package zoparga\SzamlazzHu\Support
+ * @package oksihu\SzamlazzHu\Support
  *
  * [Attributes]
  * @property-read string $merchantBank

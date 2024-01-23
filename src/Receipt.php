@@ -1,29 +1,29 @@
 <?php
 
 
-namespace zoparga\SzamlazzHu;
+namespace oksihu\SzamlazzHu;
 
 
 use Carbon\Carbon;
 use Illuminate\Support\Collection;
-use zoparga\SzamlazzHu\Client\Errors\CancellationReceiptObtainException;
-use zoparga\SzamlazzHu\Client\Errors\ModelValidationException;
-use zoparga\SzamlazzHu\Client\Errors\ReceiptAlreadyCancelledException;
-use zoparga\SzamlazzHu\Client\Errors\ReceiptValidationException;
-use zoparga\SzamlazzHu\Client\Models\ReceiptCancellationResponse;
-use zoparga\SzamlazzHu\Client\Models\ReceiptCreationResponse;
-use zoparga\SzamlazzHu\Contracts\ArrayableItem;
-use zoparga\SzamlazzHu\Contracts\ArrayableItemCollection;
-use zoparga\SzamlazzHu\Contracts\ArrayablePayment;
-use zoparga\SzamlazzHu\Contracts\ArrayablePaymentCollection;
-use zoparga\SzamlazzHu\Internal\AbstractModel;
-use zoparga\SzamlazzHu\Internal\Support\ClientAccessor;
-use zoparga\SzamlazzHu\Internal\Support\ItemHolder;
-use zoparga\SzamlazzHu\Internal\Support\PaymentHolder;
+use oksihu\SzamlazzHu\Client\Errors\CancellationReceiptObtainException;
+use oksihu\SzamlazzHu\Client\Errors\ModelValidationException;
+use oksihu\SzamlazzHu\Client\Errors\ReceiptAlreadyCancelledException;
+use oksihu\SzamlazzHu\Client\Errors\ReceiptValidationException;
+use oksihu\SzamlazzHu\Client\Models\ReceiptCancellationResponse;
+use oksihu\SzamlazzHu\Client\Models\ReceiptCreationResponse;
+use oksihu\SzamlazzHu\Contracts\ArrayableItem;
+use oksihu\SzamlazzHu\Contracts\ArrayableItemCollection;
+use oksihu\SzamlazzHu\Contracts\ArrayablePayment;
+use oksihu\SzamlazzHu\Contracts\ArrayablePaymentCollection;
+use oksihu\SzamlazzHu\Internal\AbstractModel;
+use oksihu\SzamlazzHu\Internal\Support\ClientAccessor;
+use oksihu\SzamlazzHu\Internal\Support\ItemHolder;
+use oksihu\SzamlazzHu\Internal\Support\PaymentHolder;
 
 /**
  * Class Receipt
- * @package zoparga\SzamlazzHu
+ * @package oksihu\SzamlazzHu
  *
  * [Attributes]
  * @property string $prefix

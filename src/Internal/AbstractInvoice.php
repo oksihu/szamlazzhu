@@ -1,24 +1,24 @@
 <?php
 
 
-namespace zoparga\SzamlazzHu\Internal;
+namespace oksihu\SzamlazzHu\Internal;
 
 
 use Illuminate\Support\Carbon;
 use Illuminate\Support\Collection;
 use Illuminate\Support\Str;
 use InvalidArgumentException;
-use zoparga\SzamlazzHu\Contracts\ArrayableCustomer;
-use zoparga\SzamlazzHu\Contracts\ArrayableItem;
-use zoparga\SzamlazzHu\Contracts\ArrayableItemCollection;
-use zoparga\SzamlazzHu\Contracts\ArrayableMerchant;
-use zoparga\SzamlazzHu\Internal\Support\CustomerHolder;
-use zoparga\SzamlazzHu\Internal\Support\ItemHolder;
-use zoparga\SzamlazzHu\Internal\Support\MerchantHolder;
+use oksihu\SzamlazzHu\Contracts\ArrayableCustomer;
+use oksihu\SzamlazzHu\Contracts\ArrayableItem;
+use oksihu\SzamlazzHu\Contracts\ArrayableItemCollection;
+use oksihu\SzamlazzHu\Contracts\ArrayableMerchant;
+use oksihu\SzamlazzHu\Internal\Support\CustomerHolder;
+use oksihu\SzamlazzHu\Internal\Support\ItemHolder;
+use oksihu\SzamlazzHu\Internal\Support\MerchantHolder;
 
 /**
  * Class AbstractInvoice
- * @package zoparga\SzamlazzHu\Internal
+ * @package oksihu\SzamlazzHu\Internal
  *
  * [Self attributes]
  * @property boolean $isElectronic

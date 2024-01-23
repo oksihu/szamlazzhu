@@ -1,13 +1,13 @@
 <?php
 
 
-namespace zoparga\SzamlazzHu\Tests\Support;
+namespace oksihu\SzamlazzHu\Tests\Support;
 
 
 use Orchestra\Testbench\TestCase;
 use function PHPSTORM_META\type;
-use zoparga\SzamlazzHu\Tests\Fixtures\Customer;
-use zoparga\SzamlazzHu\Tests\Fixtures\CustomerHolder;
+use oksihu\SzamlazzHu\Tests\Fixtures\Customer;
+use oksihu\SzamlazzHu\Tests\Fixtures\CustomerHolder;
 
 class CustomerHolderTest extends TestCase {
 

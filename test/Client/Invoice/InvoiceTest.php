@@ -1,24 +1,24 @@
 <?php
 
 
-namespace zoparga\SzamlazzHu\Tests\Client\Invoice;
+namespace oksihu\SzamlazzHu\Tests\Client\Invoice;
 
 
 use Carbon\Carbon;
 use Illuminate\Support\Facades\Storage;
-use zoparga\SzamlazzHu\Client\Client;
-use zoparga\SzamlazzHu\Client\Errors\InvoiceValidationException;
-use zoparga\SzamlazzHu\Client\Errors\UnknownOrderIdException;
-use zoparga\SzamlazzHu\Client\Models\InvoiceCancellationResponse;
-use zoparga\SzamlazzHu\Internal\Support\PaymentMethods;
-use zoparga\SzamlazzHu\Invoice;
-use zoparga\SzamlazzHu\ProformaInvoice;
-use zoparga\SzamlazzHu\Tests\Client\Fixtures\InvoiceCancellation\InvoiceCancellationPdfResponse;
-use zoparga\SzamlazzHu\Tests\Client\Fixtures\InvoiceCancellation\InvoiceCancellationXmlResponse;
-use zoparga\SzamlazzHu\Tests\Client\Fixtures\InvoiceCreationResponse;
-use zoparga\SzamlazzHu\Tests\Client\Fixtures\InvoiceRetrievalResponse;
-use zoparga\SzamlazzHu\Tests\Client\Fixtures\ProformaInvoiceDeletionResponse;
-use zoparga\SzamlazzHu\Tests\Client\Fixtures\ProformaInvoiceRetrievalResponse;
+use oksihu\SzamlazzHu\Client\Client;
+use oksihu\SzamlazzHu\Client\Errors\InvoiceValidationException;
+use oksihu\SzamlazzHu\Client\Errors\UnknownOrderIdException;
+use oksihu\SzamlazzHu\Client\Models\InvoiceCancellationResponse;
+use oksihu\SzamlazzHu\Internal\Support\PaymentMethods;
+use oksihu\SzamlazzHu\Invoice;
+use oksihu\SzamlazzHu\ProformaInvoice;
+use oksihu\SzamlazzHu\Tests\Client\Fixtures\InvoiceCancellation\InvoiceCancellationPdfResponse;
+use oksihu\SzamlazzHu\Tests\Client\Fixtures\InvoiceCancellation\InvoiceCancellationXmlResponse;
+use oksihu\SzamlazzHu\Tests\Client\Fixtures\InvoiceCreationResponse;
+use oksihu\SzamlazzHu\Tests\Client\Fixtures\InvoiceRetrievalResponse;
+use oksihu\SzamlazzHu\Tests\Client\Fixtures\ProformaInvoiceDeletionResponse;
+use oksihu\SzamlazzHu\Tests\Client\Fixtures\ProformaInvoiceRetrievalResponse;
 
 class InvoiceTest extends TestCase {
 
@@ -432,9 +432,9 @@ class InvoiceTest extends TestCase {
         $invoice->orderNumber = 1;
         $invoice->setClient($client);
 
-        /**  @var \zoparga\SzamlazzHu\Client\Models\InvoiceCreationResponse $response */
+        /**  @var \oksihu\SzamlazzHu\Client\Models\InvoiceCreationResponse $response */
         $invoice->save(false, null, null, $response);
-        $this->assertInstanceOf(\zoparga\SzamlazzHu\Client\Models\InvoiceCreationResponse::class, $response);
+        $this->assertInstanceOf(\oksihu\SzamlazzHu\Client\Models\InvoiceCreationResponse::class, $response);
     }
 
     /** @test */
@@ -446,10 +446,10 @@ class InvoiceTest extends TestCase {
         $invoice->orderNumber = 1;
         $invoice->setClient($client);
 
-        /**  @var \zoparga\SzamlazzHu\Client\Models\InvoiceCreationResponse $response */
+        /**  @var \oksihu\SzamlazzHu\Client\Models\InvoiceCreationResponse $response */
         $result = $invoice->save(false, null, null, $response);
         $this->assertEquals($invoice, $result);
-        $this->assertInstanceOf(\zoparga\SzamlazzHu\Client\Models\InvoiceCreationResponse::class, $response);
+        $this->assertInstanceOf(\oksihu\SzamlazzHu\Client\Models\InvoiceCreationResponse::class, $response);
     }
 
     /** @test */
@@ -470,11 +470,11 @@ class InvoiceTest extends TestCase {
         $client = $this->client(new ProformaInvoiceDeletionResponse());
         $proformaInvoice = $this->getProformaInvoice('D-2018-123', $client);
 
-        /**  @var \zoparga\SzamlazzHu\Client\Models\ProformaInvoiceDeletionResponse $response */
+        /**  @var \oksihu\SzamlazzHu\Client\Models\ProformaInvoiceDeletionResponse $response */
         $result = $proformaInvoice->delete($response);
 
         $this->assertEquals($proformaInvoice, $result);
-        $this->assertInstanceOf(\zoparga\SzamlazzHu\Client\Models\ProformaInvoiceDeletionResponse::class, $response);
+        $this->assertInstanceOf(\oksihu\SzamlazzHu\Client\Models\ProformaInvoiceDeletionResponse::class, $response);
     }
 
 

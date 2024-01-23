@@ -1,20 +1,20 @@
 <?php
 
 
-namespace zoparga\SzamlazzHu\Contracts;
+namespace oksihu\SzamlazzHu\Contracts;
 
-use zoparga\SzamlazzHu\Internal\Support\PaymentMethods;
+use oksihu\SzamlazzHu\Internal\Support\PaymentMethods;
 
 /**
  * Interface ArrayablePayment
- * @package zoparga\SzamlazzHu\Contracts
+ * @package oksihu\SzamlazzHu\Contracts
  */
 interface ArrayablePayment
 {
 
     /**
      * [
-     *  'paymentMethod' => '', // @see \zoparga\SzamlazzHu\Internal\Support\PaymentMethods::$paymentMethods
+     *  'paymentMethod' => '', // @see \oksihu\SzamlazzHu\Internal\Support\PaymentMethods::$paymentMethods
      *  'amount' => '', // The amount was paid
      *  'comment' => '', // A single note on payment
      * ]

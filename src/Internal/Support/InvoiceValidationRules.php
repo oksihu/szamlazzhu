@@ -1,11 +1,11 @@
 <?php
 
 
-namespace zoparga\SzamlazzHu\Internal\Support;
+namespace oksihu\SzamlazzHu\Internal\Support;
 
 
 use Illuminate\Validation\Rule;
-use zoparga\SzamlazzHu\Invoice;
+use oksihu\SzamlazzHu\Invoice;
 
 trait InvoiceValidationRules
 {

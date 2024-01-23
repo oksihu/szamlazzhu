@@ -1,14 +1,14 @@
 <?php
 
 
-namespace zoparga\SzamlazzHu\Tests\Support;
+namespace oksihu\SzamlazzHu\Tests\Support;
 
 
 use Illuminate\Support\Collection;
 use Orchestra\Testbench\TestCase;
-use zoparga\SzamlazzHu\Tests\Fixtures\Item;
-use zoparga\SzamlazzHu\Tests\Fixtures\ItemCollection;
-use zoparga\SzamlazzHu\Tests\Fixtures\ItemHolder;
+use oksihu\SzamlazzHu\Tests\Fixtures\Item;
+use oksihu\SzamlazzHu\Tests\Fixtures\ItemCollection;
+use oksihu\SzamlazzHu\Tests\Fixtures\ItemHolder;
 
 class ItemHolderTest extends TestCase {
 

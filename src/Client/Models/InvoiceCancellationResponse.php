@@ -1,12 +1,12 @@
 <?php
 
 
-namespace zoparga\SzamlazzHu\Client\Models;
+namespace oksihu\SzamlazzHu\Client\Models;
 
 use Illuminate\Support\Str;
 use Psr\Http\Message\ResponseInterface;
-use zoparga\SzamlazzHu\Client\Client;
-use zoparga\SzamlazzHu\Invoice;
+use oksihu\SzamlazzHu\Client\Client;
+use oksihu\SzamlazzHu\Invoice;
 
 
 /**
@@ -15,7 +15,7 @@ use zoparga\SzamlazzHu\Invoice;
  * [Attributes]
  * @property-read string $cancellationInvoiceNumber
  *
- * @package zoparga\SzamlazzHu\Client\Models
+ * @package oksihu\SzamlazzHu\Client\Models
  */
 class InvoiceCancellationResponse extends CommonResponseModel {
 
@@ -53,7 +53,7 @@ class InvoiceCancellationResponse extends CommonResponseModel {
 
     /**
      * @return Invoice|null
-     * @throws \zoparga\SzamlazzHu\Client\ApiErrors\CommonResponseException
+     * @throws \oksihu\SzamlazzHu\Client\ApiErrors\CommonResponseException
      */
     public function cancellationInvoice()
     {

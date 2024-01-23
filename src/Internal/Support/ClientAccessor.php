@@ -1,14 +1,14 @@
 <?php
 
 
-namespace zoparga\SzamlazzHu\Internal\Support;
+namespace oksihu\SzamlazzHu\Internal\Support;
 
 
-use zoparga\SzamlazzHu\Client\Client;
+use oksihu\SzamlazzHu\Client\Client;
 
 /**
  * Trait ClientAccessor
- * @package zoparga\SzamlazzHu\Support
+ * @package oksihu\SzamlazzHu\Support
  */
 trait ClientAccessor
 {
